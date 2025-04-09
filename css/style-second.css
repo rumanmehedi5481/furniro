@@ -1,0 +1,1005 @@
+/* Global CSS Start */
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--primary-font);
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+:root {
+  --text-black: #333;
+  --text-gold: #b88e2f;
+  --primary-font: "Poppins", sans-serif;
+}
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+/* Global CSS End */
+/*////////////// INDEX PAGE CSS //////////////////*/
+
+/*------------------*/
+/* Header CSS Start */
+/*------------------*/
+
+.header-parrents {
+  display: flex;
+  align-items: center;
+  padding: 30px 55px;
+  background-color: #fff;
+  position: relative;
+  justify-content: space-between;
+}
+
+.header-parrents .nav-item ul {
+  display: flex;
+  gap: 75px;
+}
+
+.header-parrents .nav-item ul a {
+  color: #000;
+  font-size: 16px;
+}
+
+.header-parrents .nav-icon ul {
+  display: flex;
+  gap: 45px;
+  cursor: pointer;
+}
+
+/*----------------*/
+/* Header CSS End */
+/*----------------*/
+
+/*----------------*/
+/* Hero CSS Start */
+/*----------------*/
+
+/* Banner section start */
+/*---------------*/
+/* Hero CSS End  */
+/*---------------*/
+
+/*////////////// INDEX PAGE CSS END //////////////////*/
+/*//////////////  CART PAGE CSS START ////////////////// */
+.cart-body {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 0;
+  gap: 35px;
+}
+.card-items {
+  width: 100%;
+}
+.cart-header {
+  display: flex;
+  background-color: #f9f3ea;
+  padding: 15px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.cart-product {
+  flex: 4;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.cart-price {
+  flex: 2;
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.cart-quantity {
+  flex: 2;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.cart-subtotal {
+  flex: 2;
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 15px 0;
+}
+
+.product-image-container {
+  margin-right: 15px;
+  width: 105px;
+  height: 105px;
+  background-color: #f9f3ea;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-image {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.product-details {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.product-name {
+  color: #9f9f9f;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.price-column {
+  flex: 2;
+  text-align: left;
+  color: #9f9f9f;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.quantity-column {
+  flex: 2;
+  text-align: center;
+  color: #9f9f9f;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.quantity-input {
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #000000;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.subtotal-column {
+  flex: 2;
+  text-align: left;
+  position: relative;
+  color: #000000;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.delete-button {
+  margin-left: 20px;
+  color: #c5a059;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.cart-totals-container {
+  background-color: #f9f2e7;
+  width: 400px;
+  padding: 30px 80px 75px;
+  box-sizing: border-box;
+}
+
+.cart-totals-title {
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 65px;
+}
+
+.totals-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+  gap: 60px;
+}
+
+.totals-label {
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+
+.subtotal-value {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+
+  color: #9f9f9f;
+}
+
+.total-value {
+  color: #c09144;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.checkout-button {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.checkout-button button {
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 15px;
+  padding: 20px 60px;
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+}
+/*//////////////  CART PAGE CSS END ////////////////// */
+
+/*////////////// CHECKOUT PAGE CSS START ////////////////// */
+
+/* Breadcrumb Area Styling */
+.breadcrumb__area {
+  background: url(../img-2/breadcrumb-bg.png) center center no-repeat;
+  background-size: cover;
+  height: 316px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Breadcrumb Content Heading */
+.breadcrumb__area .breadcrumb__content h2 {
+  font-size: 48px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: var(--text-black);
+  font-family: var(--primary-font);
+  margin-bottom: 0;
+}
+
+/* Breadcrumb Navigation Styling */
+.breadcrumb {
+  width: 172px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Breadcrumb Images and Links */
+.breadcrumb img {
+  width: 15px;
+}
+
+.breadcrumb a {
+  color: #030303;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+/* Active Breadcrumb Item */
+.breadcrumb-item.active {
+  color: #030303bd;
+}
+
+.breadcrumb li {
+  list-style: none;
+  font-family: var(--primary-font);
+}
+
+/* Tour Package Section Padding */
+.tour-package-section {
+  padding-top: 140px;
+}
+
+/* CHECKOUT FORM SECTION CODE START */
+
+/* Container for Checkout Form & Billing Details */
+.checkout-form-bill {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  gap: 150px;
+}
+
+/* Left Column: Checkout Form Section */
+.checkout-form-section {
+  width: 40%;
+}
+
+/* Form Container Heading */
+.form-container h2 {
+  text-align: start;
+  color: var(--text-black);
+  margin-bottom: 40px;
+  font-family: var(--primary-font);
+  font-size: 36px;
+  font-weight: 600;
+}
+
+/* Form Group Spacing */
+.form-group {
+  margin-bottom: 40px;
+}
+
+/* Form Labels */
+.form-container label {
+  font-family: var(--primary-font);
+  display: block;
+  margin-bottom: 25px;
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* Form Inputs and Select Elements */
+.form-container input,
+select {
+  width: 100%;
+  height: 75px;
+  padding: 10px;
+  border: 1px solid #9f9f9f;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-family: var(--primary-font);
+  font-size: 16px;
+}
+
+/* Custom Select Styling */
+.form-container select {
+  appearance: none;
+  background: url('data:image/svg+xml;utf8,<svg fill="%23333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>')
+    no-repeat right 10px center;
+  background-size: 24px;
+  color: #9f9f9f;
+}
+
+/* Name Row Styling (First and Last Name Inputs) */
+.name-row {
+  display: flex;
+  gap: 32px;
+}
+
+.name-row .form-group {
+  flex: 1;
+}
+
+/* Optional Field Label Styling */
+.optional {
+  font-family: var(--primary-font);
+  margin-bottom: 25px;
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* CHECKOUT FORM SECTION CODE END */
+
+/* CHECKOUT TOTAL SECTION CODE START */
+
+/* Right Column: Order Summary & Payment Section */
+.checkout-total-section {
+  width: 60%;
+  padding: 40px;
+}
+
+/* Order Summary Styling */
+.order-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 30px;
+}
+
+/* Order Summary Header (Labels for Product & Subtotal) */
+.order-summary-header {
+  font-family: var(--primary-font);
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Product Line Item */
+.product-line {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Total Lines Styling */
+.total-line {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-family: var(--primary-font);
+  font-size: 16px;
+}
+
+/* Payment Methods Container */
+.payment-methods {
+  margin-top: 20px;
+}
+
+/* Individual Payment Method */
+.payment-method {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-family: var(--primary-font);
+  font-size: 16px;
+  color: #000;
+}
+
+.payment-method input {
+  margin-right: 10px;
+}
+
+/* Payment Method Details Text */
+.payment-method-details {
+  font-family: var(--primary-font);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: justify;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  color: #9f9f9f;
+}
+
+/* Privacy Notice Text */
+.privacy-text {
+  font-family: var(--primary-font);
+  font-weight: 300;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.privacy-text a {
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+}
+
+/* Place Order Button Styling */
+.place-order-btn {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 22px 105px;
+  background-color: transparent;
+  color: black;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  cursor: pointer;
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect for Place Order Button */
+.place-order-btn:hover {
+  background-color: black;
+  color: #fff;
+}
+
+/*CHECKOUT TOTAL SECTION CODE END  */
+
+/*////////////// CHECKOUT PAGE CSS END ////////////////// */
+
+/*////////////// CONTACT PAGE CSS START ////////////////// */
+/* ==============================
+  Get In Touch Section
+   ============================== */
+.get-in-touch {
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px 0 0;
+}
+
+/* Title styling for the Get In Touch section */
+.get-in-touch .title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+/* Description styling for the Get In Touch section */
+.get-in-touch .discription {
+  font-size: 16px;
+  font-weight: 400;
+  color: #9f9f9f;
+  width: 34%;
+  margin: 0 auto;
+}
+
+/* ==============================
+      Contact Body Section Layout
+   ============================== */
+.contact-body {
+  width: 1058px;
+  margin: 0 auto;
+  padding: 120px 55px 65px;
+  display: flex;
+  gap: 180px;
+}
+
+/* ==============================
+    Contact Information Styling
+     ============================== */
+.contact-info {
+  flex: 1;
+}
+
+/* Individual contact item (address, phone, working time) */
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+/* Icon styling within contact items */
+.contact-icon {
+  margin-right: 30px;
+}
+
+/* Contact details heading styling */
+.contact-details h3 {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #000;
+}
+
+/* Contact details paragraph styling */
+.contact-details p {
+  margin: 5px 0;
+  color: #000;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* ==============================
+    Contact Form Styling
+     ============================== */
+.contact-form {
+  flex: 2;
+}
+
+/* Form group spacing */
+.form-group {
+  margin-bottom: 40px;
+}
+
+/* Form group label styling */
+.form-group label {
+  display: block;
+  margin-bottom: 25px;
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* Styling for both input and textarea elements */
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 30px;
+  border: 1px solid #9f9f9f;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+
+/* Specific styling for textarea */
+.form-group textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+/* ==============================
+    Submit Button Styling
+     ============================== */
+.submit-btn {
+  background-color: #b88e2f;
+  color: white;
+  padding: 20px 90px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #b88e2f;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/*////////////// CONTACT PAGE CSS END ////////////////// */
+
+/*//////////////  BLOG PAGE CSS START ////////////////// */
+/* ==========================
+  Blog Section Layout
+   ========================== */
+.blog-body {
+  display: flex;
+  gap: 70px;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+.all-blogs {
+  width: 65%;
+}
+
+/* ==========================
+    Blog Card Styling
+     ========================== */
+.blog-card {
+  overflow: hidden;
+  padding-bottom: 55px;
+}
+
+.blog-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.blog-content {
+  padding-top: 15px;
+}
+
+/* ==========================
+    Blog Meta Information
+     ========================== */
+.blog-meta {
+  display: flex;
+  align-items: center;
+  color: #9f9f9f;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.blog-meta img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Adds spacing between metadata elements */
+.blog-meta > * {
+  margin-right: 15px;
+  display: flex;
+  gap: 7px;
+}
+
+.blog-meta svg {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+/* ==========================
+    Blog Content Styling
+     ========================== */
+.blog-title {
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.blog-excerpt {
+  color: #9f9f9f;
+  margin-bottom: 35px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+/* "Read More" Link Styling */
+.read-more {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 15px;
+}
+
+/* ==========================
+    Pagination Styling
+     ========================== */
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: end;
+}
+
+.page-number {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Active Page Number */
+.page-number.active {
+  background-color: #b88e2f;
+  color: white;
+}
+
+/* Non-Active Page Number */
+.page-number:not(.active) {
+  background-color: #f9f1e7;
+}
+
+/* Next Button */
+.next-button {
+  background-color: #f9f1e7;
+  color: #000;
+  padding: 15px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+/* ==========================
+    Sidebar Section
+     ========================== */
+.blog-category-post {
+  width: 30%;
+}
+
+/* ==========================
+    Search Input Styling
+     ========================== */
+.search-wrapper {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 100%;
+  height: 58px;
+  padding: 10px;
+  border: 1px solid #9f9f9f;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  padding-right: 40px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  color: #888;
+}
+
+/* ==========================
+    Blog Categories Styling
+     ========================== */
+.categories-title {
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.categories-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 50px 25px 75px 35px;
+}
+
+/* Category Items */
+.category-item {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 16px;
+  color: #9f9f9f;
+  padding-bottom: 50px;
+}
+
+.category-name {
+  color: #333;
+}
+
+.category-count {
+  color: #888;
+}
+
+/* ==========================
+    Recent Posts Styling
+     ========================== */
+.related-posts {
+  padding: 0 45px 0 35px;
+}
+
+.recent-posts-title {
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+/* Recent Post Items */
+.post-item {
+  display: flex;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.post-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+
+.post-content {
+  flex-grow: 1;
+}
+
+/* Post Title */
+.post-title {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+/* Post Date */
+.post-date {
+  font-weight: 400;
+  font-size: 12px;
+  color: #9f9f9f;
+}
+/*//////////////  BLOG PAGE CSS END ////////////////// */
+/* benefits section start */
+.benefits {
+  background: #faf3ea;
+  padding: 105px 0;
+}
+.benefits .benefits-parrents {
+  display: flex;
+  justify-content: space-around;
+}
+.benefits .benefits-parrents .trophy,
+.guarantee,
+.shipping,
+.customer-support {
+  display: flex;
+  align-items: center;
+}
+.benefits .benefits-parrents h4 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #242424;
+}
+.benefits .benefits-parrents p {
+  font-size: 20px;
+  color: #898989;
+}
+.benefits .benefits-parrents img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+/* benefits Section end */
+
+/* fotter section Start */
+.fotter {
+  padding-top: 50px;
+  border-top: 1px solid #0000002b;
+}
+.fotter .fotter-parrents {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.fotter .fotter-parrents .padd-btm {
+  padding-bottom: 50px;
+}
+.fotter .fotter-parrents h3 {
+  color: #9f9f9f;
+  font-size: 16px;
+  font-weight: 500;
+}
+.fotter .fotter-parrents ul li a {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+.fotter .fotter-parrents ul li {
+  margin-bottom: 45px;
+}
+.fotter .fotter-parrents .logo p {
+  color: #9f9f9f;
+  font-size: 16px;
+  font-weight: 500;
+}
+.fotter .fotter-parrents .newsletter input.border-input {
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  padding: 8px;
+  font-size: 16px;
+}
+.fotter .fotter-parrents .newsletter input.border-input:focus {
+  border-bottom: 1px solid #b88e2f;
+}
+.fotter .fotter-parrents .newsletter a {
+  color: #000;
+  text-transform: uppercase;
+  border-bottom: 1px solid #000;
+  font-size: 14px;
+  padding-bottom: 9px;
+  margin-left: 10px;
+}
+.fotter .fotter-parrents .newsletter a:hover {
+  color: #b88e2f;
+  border-bottom: 1px solid #b88e2f;
+}
+/* fotter section End */
+
+/* fotter botom Section Start  */
+.fotter-bottom {
+}
+.fotter-bottom .fotter-botom-parrents {
+  border-top: 1px solid #0000002b;
+  padding: 40px 0;
+}
+.fotter-bottom p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+}
+/* fotter botom Section ENd  */
